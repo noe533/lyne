@@ -1,0 +1,76 @@
+
+=== 4x4
+  denilsonsa  4x4-0        solved       0.010s
+  denilsonsa  4x4-1        solved       0.001s
+  denilsonsa  4x4-2        solved       0.002s
+  denilsonsa  4x4-3        solved       0.000s
+  denilsonsa  4x4-4        solved       0.008s
+  jbosboom    4x4-0        solved       0.065s
+  jbosboom    4x4-1        solved       0.057s
+  jbosboom    4x4-2        solved       0.063s
+  jbosboom    4x4-3        solved       0.057s
+  jbosboom    4x4-4        solved       0.058s
+  yahvk       4x4-0        solved       0.009s
+  yahvk       4x4-1        solved       0.005s
+  yahvk       4x4-2        solved       0.005s
+  yahvk       4x4-3        solved       0.005s
+  yahvk       4x4-4        solved       0.005s
+
+=== 5x5
+  denilsonsa  5x5-0        timeout           -
+  denilsonsa  5x5-1        solved       9.514s
+  denilsonsa  5x5-2        solved       0.444s
+  denilsonsa  5x5-3        timeout           -
+  denilsonsa  5x5-4        solved       2.334s
+  jbosboom    5x5-0        solved       0.068s
+  jbosboom    5x5-1        solved       0.126s
+  jbosboom    5x5-2        solved       0.062s
+  jbosboom    5x5-3        solved       0.192s
+  jbosboom    5x5-4        solved       0.123s
+  yahvk       5x5-0        solved       1.044s
+  yahvk       5x5-1        solved       0.130s
+  yahvk       5x5-2        solved       0.018s
+  yahvk       5x5-3        solved       1.888s
+  yahvk       5x5-4        solved       0.009s
+
+=== 6x6
+  denilsonsa  6x6-0        timeout           -
+  denilsonsa  6x6-1        solved      15.235s
+  denilsonsa  6x6-2        timeout           -
+  denilsonsa  6x6-3        timeout           -
+  denilsonsa  6x6-4        timeout           -
+  -> denilsonsa abandonné au-delà de 6x6
+  jbosboom    6x6-0        solved       0.935s
+  jbosboom    6x6-1        timeout           -
+  jbosboom    6x6-2        solved       4.524s
+  jbosboom    6x6-3        solved       0.663s
+  jbosboom    6x6-4        solved       0.710s
+  yahvk       6x6-0        solved       9.320s
+  yahvk       6x6-1        solved       0.100s
+  yahvk       6x6-2        solved       0.058s
+  yahvk       6x6-3        timeout           -
+  yahvk       6x6-4        solved       0.757s
+
+=== 7x7
+  jbosboom    7x7-0        timeout           -
+  jbosboom    7x7-1        timeout           -
+  jbosboom    7x7-2        timeout           -
+  jbosboom    7x7-3        timeout           -
+  jbosboom    7x7-4        timeout           -
+  -> jbosboom abandonné au-delà de 7x7
+  yahvk       7x7-0        timeout           -
+  yahvk       7x7-1        timeout           -
+  yahvk       7x7-2        solved      25.224s
+  yahvk       7x7-3        timeout           -
+  yahvk       7x7-4        timeout           -
+  -> yahvk abandonné au-delà de 7x7
+
+Résumé (taille_timeout60s.csv) : niveaux résolus / testés, temps médian des réussites
+bot          4x4            5x5            6x6            7x7            8x8            9x9           10x10          11x11          12x12          13x13          14x14          15x15           plus grand N (100 %)
+cp8         5/5     0.02s  5/5     0.04s  5/5     0.06s  5/5     0.25s  5/5     0.54s  5/5     1.33s  5/5     3.24s  5/5    11.07s  4/5     8.26s  4/5    29.48s  4/5    55.81s  0/5         -   11
+cp1         5/5     0.01s  5/5     0.03s  5/5     0.04s  5/5     0.20s  5/5     1.71s  5/5     2.19s  4/5     5.04s  5/5    16.26s  5/5    53.81s  1/5    58.54s                                 12
+upstream    5/5     0.03s  5/5     0.38s  4/5    11.09s  0/5         -                                                                                                                           5
+arlencox    5/5     0.31s  5/5     0.81s  5/5     0.71s  4/5    11.35s  5/5    32.34s  0/5         -                                                                                             8
+denilsonsa  5/5     0.00s  3/5     2.33s  1/5    15.23s                                                                                                                                          4
+jbosboom    5/5     0.06s  5/5     0.12s  4/5     0.82s  0/5         -                                                                                                                           5
+yahvk       5/5     0.00s  5/5     0.13s  4/5     0.43s  1/5    25.22s                                                                                                                           5

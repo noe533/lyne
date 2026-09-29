@@ -1,0 +1,8 @@
+ortools
+pyautogui
+keyboard
+pillow
+numpy
+scipy
+pandas
+jinja2

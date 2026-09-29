@@ -229,3 +229,8 @@ icon.png
 *.xlsx
 *.html
 !data_visualization.html
+
+# Bots LYNE tiers (clonés par autres_bots/construire.py) et artefacts du benchmark
+autres_bots/*/
+!autres_bots/adaptateurs/
+benchmark/niveaux/

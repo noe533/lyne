@@ -1,0 +1,195 @@
+
+=== 4x4
+  cp8         4x4-0        solved       0.037s
+  cp8         4x4-1        solved       0.024s
+  cp8         4x4-2        solved       0.031s
+  cp8         4x4-3        solved       0.025s
+  cp8         4x4-4        solved       0.022s
+  cp1         4x4-0        solved       0.027s
+  cp1         4x4-1        solved       0.012s
+  cp1         4x4-2        solved       0.014s
+  cp1         4x4-3        solved       0.009s
+  cp1         4x4-4        solved       0.012s
+  upstream    4x4-0        solved       0.117s
+  upstream    4x4-1        solved       0.037s
+  upstream    4x4-2        solved       0.024s
+  upstream    4x4-3        solved       0.023s
+  upstream    4x4-4        solved       0.028s
+  arlencox    4x4-0        solved       0.319s
+  arlencox    4x4-1        solved       0.233s
+  arlencox    4x4-2        solved       0.306s
+  arlencox    4x4-3        solved       0.471s
+  arlencox    4x4-4        solved       0.143s
+
+=== 5x5
+  cp8         5x5-0        solved       0.037s
+  cp8         5x5-1        solved       0.040s
+  cp8         5x5-2        solved       0.032s
+  cp8         5x5-3        solved       0.047s
+  cp8         5x5-4        solved       0.029s
+  cp1         5x5-0        solved       0.034s
+  cp1         5x5-1        solved       0.029s
+  cp1         5x5-2        solved       0.017s
+  cp1         5x5-3        solved       0.032s
+  cp1         5x5-4        solved       0.017s
+  upstream    5x5-0        solved       0.381s
+  upstream    5x5-1        solved       0.811s
+  upstream    5x5-2        solved       0.872s
+  upstream    5x5-3        solved       0.370s
+  upstream    5x5-4        solved       0.092s
+  arlencox    5x5-0        solved       1.209s
+  arlencox    5x5-1        solved       0.813s
+  arlencox    5x5-2        solved       0.245s
+  arlencox    5x5-3        solved       2.487s
+  arlencox    5x5-4        solved       0.498s
+
+=== 6x6
+  cp8         6x6-0        solved       0.047s
+  cp8         6x6-1        solved       0.089s
+  cp8         6x6-2        solved       0.069s
+  cp8         6x6-3        solved       0.061s
+  cp8         6x6-4        solved       0.054s
+  cp1         6x6-0        solved       0.037s
+  cp1         6x6-1        solved       0.102s
+  cp1         6x6-2        solved       0.080s
+  cp1         6x6-3        solved       0.038s
+  cp1         6x6-4        solved       0.038s
+  upstream    6x6-0        solved      11.339s
+  upstream    6x6-1        solved      16.066s
+  upstream    6x6-2        timeout     61.116s
+  upstream    6x6-3        solved      10.834s
+  upstream    6x6-4        solved       2.198s
+  arlencox    6x6-0        solved       0.657s
+  arlencox    6x6-1        solved       3.125s
+  arlencox    6x6-2        solved       1.655s
+  arlencox    6x6-3        solved       0.696s
+  arlencox    6x6-4        solved       0.710s
+
+=== 7x7
+  cp8         7x7-0        solved       0.457s
+  cp8         7x7-1        solved       0.511s
+  cp8         7x7-2        solved       0.166s
+  cp8         7x7-3        solved       0.222s
+  cp8         7x7-4        solved       0.251s
+  cp1         7x7-0        solved       0.204s
+  cp1         7x7-1        solved       0.204s
+  cp1         7x7-2        solved       0.282s
+  cp1         7x7-3        solved       0.570s
+  cp1         7x7-4        solved       0.103s
+  upstream    7x7-0        timeout     61.389s
+  upstream    7x7-1        timeout     62.992s
+  upstream    7x7-2        timeout     61.887s
+  upstream    7x7-3        timeout     62.158s
+  upstream    7x7-4        timeout     63.457s
+  -> upstream abandonné au-delà de 7x7
+  arlencox    7x7-0        timeout     61.859s
+  arlencox    7x7-1        solved      17.002s
+  arlencox    7x7-2        solved      16.271s
+  arlencox    7x7-3        solved       2.821s
+  arlencox    7x7-4        solved       6.437s
+
+=== 8x8
+  cp8         8x8-0        solved       0.315s
+  cp8         8x8-1        solved       0.366s
+  cp8         8x8-2        solved       0.675s
+  cp8         8x8-3        solved       0.958s
+  cp8         8x8-4        solved       0.541s
+  cp1         8x8-0        solved       0.562s
+  cp1         8x8-1        solved       0.583s
+  cp1         8x8-2        solved       2.069s
+  cp1         8x8-3        solved       2.794s
+  cp1         8x8-4        solved       1.711s
+  arlencox    8x8-0        solved      18.903s
+  arlencox    8x8-1        solved       7.666s
+  arlencox    8x8-2        solved      32.339s
+  arlencox    8x8-3        solved      51.927s
+  arlencox    8x8-4        solved      35.106s
+
+=== 9x9
+  cp8         9x9-0        solved       0.303s
+  cp8         9x9-1        solved       6.095s
+  cp8         9x9-2        solved       0.615s
+  cp8         9x9-3        solved       5.325s
+  cp8         9x9-4        solved       1.326s
+  cp1         9x9-0        solved       3.923s
+  cp1         9x9-1        solved       2.186s
+  cp1         9x9-2        solved       0.813s
+  cp1         9x9-3        solved       7.702s
+  cp1         9x9-4        solved       1.659s
+  arlencox    9x9-0        timeout     63.681s
+  arlencox    9x9-1        timeout           -
+  arlencox    9x9-2        timeout           -
+  arlencox    9x9-3        timeout           -
+  arlencox    9x9-4        timeout           -
+  -> arlencox abandonné au-delà de 9x9
+
+=== 10x10
+  cp8         10x10-0      solved       3.240s
+  cp8         10x10-1      solved       3.051s
+  cp8         10x10-2      solved       0.880s
+  cp8         10x10-3      solved       6.260s
+  cp8         10x10-4      solved       5.340s
+  cp1         10x10-0      timeout     60.023s
+  cp1         10x10-1      solved       1.558s
+  cp1         10x10-2      solved       1.382s
+  cp1         10x10-3      solved      12.485s
+  cp1         10x10-4      solved       8.514s
+
+=== 11x11
+  cp8         11x11-0      solved      11.066s
+  cp8         11x11-1      solved       5.383s
+  cp8         11x11-2      solved      27.407s
+  cp8         11x11-3      solved       2.394s
+  cp8         11x11-4      solved      21.567s
+  cp1         11x11-0      solved      23.830s
+  cp1         11x11-1      solved       6.827s
+  cp1         11x11-2      solved      14.786s
+  cp1         11x11-3      solved      16.255s
+  cp1         11x11-4      solved      55.362s
+
+=== 12x12
+  cp8         12x12-0      solved      31.830s
+  cp8         12x12-1      solved       5.540s
+  cp8         12x12-2      timeout           -
+  cp8         12x12-3      solved       7.434s
+  cp8         12x12-4      solved       9.090s
+  cp1         12x12-0      solved      53.935s
+  cp1         12x12-1      solved       6.006s
+  cp1         12x12-2      solved      53.814s
+  cp1         12x12-3      solved      14.388s
+  cp1         12x12-4      solved      54.817s
+
+=== 13x13
+  cp8         13x13-0      solved      33.440s
+  cp8         13x13-1      timeout     60.108s
+  cp8         13x13-2      solved      24.612s
+  cp8         13x13-3      solved      25.521s
+  cp8         13x13-4      solved      37.260s
+  cp1         13x13-0      solved      58.538s
+  cp1         13x13-1      timeout     60.029s
+  cp1         13x13-2      timeout     60.029s
+  cp1         13x13-3      timeout     60.037s
+  cp1         13x13-4      timeout     60.033s
+  -> cp1 abandonné au-delà de 13x13
+
+=== 14x14
+  cp8         14x14-0      solved      54.987s
+  cp8         14x14-1      solved      56.643s
+  cp8         14x14-2      timeout     60.122s
+  cp8         14x14-3      solved      40.620s
+  cp8         14x14-4      solved      57.711s
+
+=== 15x15
+  cp8         15x15-0      timeout     60.156s
+  cp8         15x15-1      timeout     60.152s
+  cp8         15x15-2      timeout     60.167s
+  cp8         15x15-3      timeout     60.158s
+  cp8         15x15-4      timeout     60.122s
+  -> cp8 abandonné au-delà de 15x15
+
+Résumé (taille_timeout60s.csv) : niveaux résolus / testés, temps médian des réussites
+bot          4x4            5x5            6x6            7x7            8x8            9x9           10x10          11x11          12x12          13x13          14x14          15x15           plus grand N (100 %)
+cp8         5/5     0.02s  5/5     0.04s  5/5     0.06s  5/5     0.25s  5/5     0.54s  5/5     1.33s  5/5     3.24s  5/5    11.07s  4/5     8.26s  4/5    29.48s  4/5    55.81s  0/5         -   11
+cp1         5/5     0.01s  5/5     0.03s  5/5     0.04s  5/5     0.20s  5/5     1.71s  5/5     2.19s  4/5     5.04s  5/5    16.26s  5/5    53.81s  1/5    58.54s                                 12
+upstream    5/5     0.03s  5/5     0.38s  4/5    11.09s  0/5         -                                                                                                                           5
+arlencox    5/5     0.31s  5/5     0.81s  5/5     0.71s  4/5    11.35s  5/5    32.34s  0/5         -                                                                                             8
